@@ -40,7 +40,7 @@ export default function HeaderBar() {
                         variant='h1'
                         component={'h1'}
                     >
-                        Smart AI
+                        Bot AI
                     </Typography>
                 </Link>
             </Stack>

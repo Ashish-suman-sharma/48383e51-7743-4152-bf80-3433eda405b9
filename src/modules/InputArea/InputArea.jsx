@@ -39,7 +39,7 @@ export default function InputArea({ onSubmitQuery, triggerScroll, conversation, 
             <Box component={'form'} onSubmit={processSubmission}>
                 <Stack direction={'row'} spacing={{ xs: .5, md: 2 }}>
                     <TextField
-                        placeholder='Type your message here...'
+                        placeholder='Message Bot AI...'
                         sx={{
                             flex: 1,
                             bgcolor: 'primary.light',

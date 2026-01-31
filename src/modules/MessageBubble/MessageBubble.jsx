@@ -57,7 +57,7 @@ export default function MessageBubble({ msgData, openReviewModal, modifyMessages
                     fontWeight={700}
                     fontSize={{ xs: 14, md: 16 }}
                 >
-                    {isAssistant ? 'Smart AI' : 'You'}
+                    {isAssistant ? 'Soul AI' : 'You'}
                 </Typography>
                 <Typography fontSize={{ xs: 12, md: 16 }}>
                     {msgData.text}

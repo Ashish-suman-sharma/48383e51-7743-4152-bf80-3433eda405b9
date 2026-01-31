@@ -21,12 +21,12 @@ export default function Dashboard() {
 
     const processUserQuery = (inputText) => {
         const matchingResponse = responseData.find(
-            item => inputText.toLowerCase() === item.query.toLowerCase()
+            item => inputText.toLowerCase() === item.question.toLowerCase()
         )
 
         const responseText = matchingResponse 
-            ? matchingResponse.answer 
-            : "Apologies, I couldn't understand your question!"
+            ? matchingResponse.response 
+            : "Sorry, Did not understand your query!"
 
         const currentTimestamp = new Date()
 
