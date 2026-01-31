@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "query": "What's the difference between GET and POST requests?",
+    "answer": "GET requests are utilized for fetching data from servers and parameters appear in the URL. POST requests transmit data to servers for creating or updating resources, with data contained in the request body rather than the URL."
+  },
+  {
+    "id": 2,
+    "query": "Can you explain RESTful APIs?",
+    "answer": "RESTful APIs follow the REST (Representational State Transfer) architectural pattern, utilizing HTTP methods to access and modify data. They implement stateless communication between client and server with caching support."
+  },
+  {
+    "id": 3,
+    "query": "What is a Promise in JavaScript?",
+    "answer": "A Promise in JavaScript represents an object that indicates the eventual success or failure of an asynchronous task. It enables writing cleaner and more maintainable asynchronous code."
+  },
+  {
+    "id": 4,
+    "query": "How do you handle errors in async/await?",
+    "answer": "Error handling in async/await is accomplished through try/catch blocks. Place your await expression inside a try block and handle any exceptions in the corresponding catch block."
+  },
+  {
+    "id": 5,
+    "query": "What is the virtual DOM?",
+    "answer": "The virtual DOM is a programming concept used in frameworks like React. It maintains a lightweight representation of the actual DOM, enabling efficient UI updates by reducing direct DOM manipulations."
+  },
+  {
+    "id": 6,
+    "query": "Can you describe how CORS works?",
+    "answer": "CORS (Cross-Origin Resource Sharing) is a security mechanism that permits restricted resources on a webpage to be accessed from different domains. Servers configure specific headers to authorize cross-origin requests."
+  },
+  {
+    "id": 7,
+    "query": "What are microservices?",
+    "answer": "Microservices represent an architectural approach where applications are built as collections of small, independent services organized around business capabilities. They support scalable and flexible development and deployment."
+  },
+  {
+    "id": 8,
+    "query": "Explain the concept of state management in React.",
+    "answer": "State management in React involves monitoring and updating component data. This can be achieved using React's built-in state hooks or external solutions like Redux for managing state across the application."
+  },
+  {
+    "id": 9,
+    "query": "What is a JWT and how is it used?",
+    "answer": "JWT (JSON Web Token) is a secure, compact format for transmitting claims between parties. It's commonly employed for authentication and secure data exchange, allowing servers to validate token contents."
+  },
+  {
+    "id": 10,
+    "query": "How do you optimize website performance?",
+    "answer": "Website performance optimization includes reducing HTTP requests, compressing assets, implementing CDNs, enabling browser caching, and optimizing code across HTML, CSS, and JavaScript files."
+  },
+  {
+    "id": 11,
+    "query": "Hi, what is the weather",
+    "answer": "I'm unable to provide real-time weather data. Please check a weather service or app for current conditions in your area."
+  },
+  {
+    "id": 12,
+    "query": "Hi, what is my location",
+    "answer": "I cannot determine your physical location. You can use maps or location services on your device to find your current position."
+  },
+  {
+    "id": 13,
+    "query": "Hi, what is the temperature",
+    "answer": "I don't have access to live temperature readings. Please consult a weather application or website for accurate temperature information."
+  },
+  {
+    "id": 14,
+    "query": "Hi, how are you",
+    "answer": "Hello! I'm functioning well and ready to assist you. How may I help you today?"
+  }
+]
